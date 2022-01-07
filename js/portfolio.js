@@ -1,5 +1,4 @@
-// open and close the contact form
-function openForm() {
+function openForm() {   // open and close the contact form
     document.getElementById("myForm").style.display = "block";
 }
 function closeForm() {

@@ -361,8 +361,6 @@ button:hover, .form-container .btn:hover {
     border-color: black;
 }
 .projects {
-    float: center;
-    position: fixed;
-    align: center;
+    float: left;
     display: inline-block;
 }

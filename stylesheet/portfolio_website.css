@@ -360,3 +360,9 @@ button:hover, .form-container .btn:hover {
     -webkit-transition-duration: 1s;
     border-color: black;
 }
+.projects {
+    float: center;
+    position: fixed;
+    align: center;
+    display: inline-block;
+}

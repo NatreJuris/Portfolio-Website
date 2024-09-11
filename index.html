@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
     <title>NATHAN NELSON</title>
+    <link rel="shortcut icon" type="img/jpg" href="images/coding_icon.png">
     <link rel="stylesheet" type="text/css" href="Content/Site.css">
     <script src="Content/portfolio.js" type="text/JavaScript"></script>
 </head>                 <!--BODY-->
-<Body background="/Content/sellwood.jpg">
+<Body background="Content/sellwood.jpg">
     <div class="Navbar">
         <!--NAVBAR-->
         <a class="active" href="#Home">Home</a>
@@ -108,7 +109,7 @@
         <!--  <div class="projects">
 
              <iframe src="Content/AutoStager1.xbap" width="329" height="443" frameBorder="0"></iframe>
-    </div>-->
+    </div>
         <div id="ipForm">
             <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 
@@ -143,17 +144,15 @@
                     initiallyVisible: false
                 });
             </script>
-        </div>
+        </div>-->
         <div class="ip">
-            <script>
-                function getIP(json) {
-                    document.write("Your public IP address is: " + json.ip);
-                }
-            </script>
-            <script src="http://api.ipify.org?format=jsonp&callback=getIP"></script>
-
+                <script>
+                    function getIP(json) {
+                        document.write("Your public IP address is: " + json.ip);
+                    }
+                </script>
+                <script src="http://api.ipify.org?format=jsonp&callback=getIP"></script>
             <!--   <iframe src=" https://natrejuris.github.io/ToDoList/" width="300" height="380" frameBorder="0"></iframe>-->
-
         </div>
     </div>
         <div id="Contact">
@@ -186,7 +185,16 @@
     <div id="footer_img">
         <div align='center'><a href='https://www.free-website-hit-counter.com'><img class="footer_img" src='https://www.free-website-hit-counter.com/c.php?d=5&id=134217&s=16' border='0'> </a></div>
     </div>
+    <!-- <div class="ip">
+            <script>
+                function getIP(json) {
+                    document.write("Your public IP address is: " + json.ip);
+                }
+            </script>
+            <script src="http://api.ipify.org?format=jsonp&callback=getIP"></script>
 
+               <iframe src=" https://natrejuris.github.io/ToDoList/" width="300" height="380" frameBorder="0"></iframe>
+    </div>-->
 </footer>
 
 
